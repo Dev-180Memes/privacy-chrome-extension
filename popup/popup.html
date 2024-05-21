@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Enhancer</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Enhancer</h1>
+        <div class="settings">
+            <label>
+                <input type="checkbox" id="blockTrackers">
+                Block Trackers
+            </label>
+            <label>
+                <input type="checkbox" id="enableDNT">
+                Enable Do Not Track
+            </label>
+            <label>
+                <input type="checkbox" id="secureDNS">
+                Use Secure DNS
+            </label>
+        </div>
+        <button id="saveButton">Save Settings</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
